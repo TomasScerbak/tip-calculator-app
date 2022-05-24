@@ -1,17 +1,8 @@
 @use "/styles/resets";
-@use "/styles/typography";
 @use "/styles/variables";
+@use "/styles/typography";
 @use "/styles/functions";
 
 body {
   font-family: ff-Mono;
-  font-size: 1.8rem;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
