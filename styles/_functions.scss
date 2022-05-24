@@ -1,0 +1,29 @@
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin flexEnd($direction) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexSpaceEvenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
