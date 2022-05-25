@@ -1,8 +1,19 @@
-@use "/styles/resets";
-@use "/styles/variables";
-@use "/styles/typography";
-@use "/styles/functions";
+@import "./resets";
+@import "./typography";
+@import "./variables";
+@import "./functions";
 
 body {
   font-family: ff-Mono;
+  font-size: 1.6rem;
+  background-color: $light-grayish-cyan;
+  height: 100vh;
+}
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

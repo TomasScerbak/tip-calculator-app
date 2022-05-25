@@ -1,8 +1,44 @@
-@use "/styles/resets";
-@use "/styles/variables";
-@use "/styles/typography";
-@use "/styles/functions";
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Lists */
+li {
+  list-style: none;
+}
+
+/* Color Pallete Variables */
+/* Font Weight Variables */
+/* Media Queries Variables */
 body {
   font-family: ff-Mono;
+  font-size: 1.6rem;
+  background-color: hsl(185deg, 41%, 84%);
+  height: 100vh;
 }
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=styles.css.map */
