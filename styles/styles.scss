@@ -61,6 +61,28 @@ body {
   border-radius: 15px;
   padding: 2.4rem;
 }
+.tip-amount,
+.total-amount {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $white;
+}
+.per-person {
+  font-size: 1.3rem;
+  color: $grayish-cyan;
+  font-weight: 700;
+}
+.group-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
 /* Attribution */
 .attribution {
   display: flex;

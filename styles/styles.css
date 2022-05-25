@@ -191,6 +191,32 @@ body {
   padding: 2.4rem;
 }
 
+.tip-amount,
+.total-amount {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.per-person {
+  font-size: 1.3rem;
+  color: hsl(184deg, 14%, 56%);
+  font-weight: 700;
+}
+
+.group-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 /* Attribution */
 .attribution {
   display: flex;
