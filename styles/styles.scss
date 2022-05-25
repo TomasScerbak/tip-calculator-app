@@ -20,7 +20,7 @@ body {
   margin-top: 5rem;
   margin-bottom: 4.8rem;
 }
-/* Card */
+/* Card, Card body and Card Footer*/
 .card {
   padding: 3.2rem;
   background-color: $white;
@@ -28,7 +28,7 @@ body {
 
   @media screen and (min-width: 700px) {
     width: 92rem;
-    height: 48.1rem;
+    height: auto;
     border-radius: 25px;
   }
 }
@@ -51,4 +51,20 @@ body {
   position: absolute;
   left: 6.19%;
   top: 38%;
+
+  @media screen and (min-width: 700px) {
+    left: 2%;
+  }
+}
+.card-footer {
+  background-color: $very-dark-cyan;
+  border-radius: 15px;
+  padding: 2.4rem;
+}
+/* Attribution */
+.attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
 }

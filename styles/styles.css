@@ -77,24 +77,47 @@ input {
 }
 
 .buttons {
+  text-align: center;
   display: grid;
   grid-template-rows: repeat(2, auto);
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.6rem;
+  justify-content: center;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .btn {
   outline: none;
   border: none;
-  background-color: hsl(183deg, 100%, 15%);
-  color: hsl(0deg, 0%, 100%);
   font-size: 2.4rem;
   font-weight: 700;
   font-family: ff-mono;
-  width: 14.7rem;
+  padding: 0.6rem auto;
   height: 4.8rem;
   border-radius: 5px;
   white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: hsl(183deg, 100%, 15%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.btn--custom {
+  background-color: hsl(189deg, 41%, 97%);
+  color: hsl(186deg, 14%, 43%);
+}
+
+.btn--reset {
+  width: 100%;
+  background-color: hsl(172deg, 67%, 46%);
+  color: hsl(183deg, 100%, 15%);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 3.2rem;
 }
 
 body {
@@ -119,7 +142,7 @@ body {
   margin-bottom: 4.8rem;
 }
 
-/* Card */
+/* Card, Card body and Card Footer*/
 .card {
   padding: 3.2rem;
   background-color: hsl(0deg, 0%, 100%);
@@ -128,7 +151,7 @@ body {
 @media screen and (min-width: 700px) {
   .card {
     width: 92rem;
-    height: 48.1rem;
+    height: auto;
     border-radius: 25px;
   }
 }
@@ -154,6 +177,26 @@ body {
   position: absolute;
   left: 6.19%;
   top: 38%;
+}
+@media screen and (min-width: 700px) {
+  .dollar,
+.person-icon {
+    left: 2%;
+  }
+}
+
+.card-footer {
+  background-color: hsl(183deg, 100%, 15%);
+  border-radius: 15px;
+  padding: 2.4rem;
+}
+
+/* Attribution */
+.attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
