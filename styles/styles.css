@@ -141,6 +141,17 @@ input:focus {
   }
 }
 
+.error {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e17457;
+}
+
+.input-error {
+  border: 2px solid #e17457;
+}
+
+/* Body */
 body {
   font-family: "Space Mono", monospace;
   font-size: 1.6rem;
@@ -216,6 +227,11 @@ body {
 .person-icon {
     left: 5%;
   }
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 991.98px) {
