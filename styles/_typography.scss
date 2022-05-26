@@ -23,7 +23,7 @@ input {
   color: $very-dark-cyan;
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 0.6rem 0 2rem 0;
+  margin: 0 0 2rem 0;
   direction: rtl;
 }
 
@@ -31,5 +31,6 @@ input:focus {
   border: 2px solid $green;
 }
 ::placeholder {
-  opacity: 50%;
+  opacity: 70%;
+  font-size: 2rem;
 }

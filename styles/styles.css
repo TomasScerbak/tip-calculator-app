@@ -35,7 +35,7 @@ input {
   color: hsl(183deg, 100%, 15%);
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 0.6rem 0 2rem 0;
+  margin: 0 0 2rem 0;
   direction: rtl;
 }
 
@@ -44,7 +44,8 @@ input:focus {
 }
 
 ::placeholder {
-  opacity: 50%;
+  opacity: 70%;
+  font-size: 2rem;
 }
 
 /* Color Pallete Variables */
@@ -82,7 +83,7 @@ input {
   color: hsl(183deg, 100%, 15%);
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 0.6rem 0 2rem 0;
+  margin: 0 0 2rem 0;
   direction: rtl;
 }
 
@@ -91,7 +92,8 @@ input:focus {
 }
 
 ::placeholder {
-  opacity: 50%;
+  opacity: 70%;
+  font-size: 2rem;
 }
 
 .buttons {
@@ -231,6 +233,7 @@ body {
   color: hsl(186deg, 14%, 43%);
   font-size: 1.6rem;
   font-weight: 700;
+  margin-bottom: 0.2rem;
 }
 
 .dollar,
