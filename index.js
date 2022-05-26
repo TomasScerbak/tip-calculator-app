@@ -2,8 +2,6 @@
 // Getting DOM elements
 const bill = document.querySelector('#bill');
 
-
-
 const fivePercentBtn = document.querySelector('#five');
 const tenPercentBtn = document.querySelector('#ten');
 const fifteenPercentBtn = document.querySelector('#fifteen');
@@ -18,7 +16,6 @@ const tipPerPerson = document.querySelector('.tip-value');
 const totalPerPerson = document.querySelector('.total-value');
 
 const resetBtn = document.querySelector('.btn--reset');
-
 
 
 // Getting value from bill input
