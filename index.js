@@ -22,6 +22,7 @@ const resetBtn = document.querySelector('.btn--reset');
 // Getting value from bill input
 bill.addEventListener('input', (e) => {
     value = Number(e.target.value);
+    console.log(value);
     return value;
 })
 
