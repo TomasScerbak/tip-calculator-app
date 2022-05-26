@@ -36,7 +36,7 @@ input {
   color: hsl(183deg, 100%, 15%);
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 0.6rem 0 3.2rem 0;
+  margin: 0.6rem 0 2rem 0;
 }
 
 /* Color Pallete Variables */
@@ -73,7 +73,7 @@ input {
   color: hsl(183deg, 100%, 15%);
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 0.6rem 0 3.2rem 0;
+  margin: 0.6rem 0 2rem 0;
 }
 
 .buttons {
@@ -121,7 +121,7 @@ input {
 }
 @media screen and (min-width: 991.98px) {
   .btn--reset {
-    margin-top: 15rem;
+    margin-top: 17rem;
   }
 }
 
@@ -193,12 +193,12 @@ body {
 .person-icon {
   position: absolute;
   left: 6.19%;
-  top: 38%;
+  top: 44%;
 }
 @media screen and (min-width: 991.98px) {
   .dollar,
 .person-icon {
-    left: 2%;
+    left: 5%;
   }
 }
 
