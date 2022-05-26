@@ -5,7 +5,7 @@
 @import "./buttons";
 
 body {
-  font-family: ff-Mono;
+  font-family: "Space Mono", monospace;
   font-size: 1.6rem;
   background-color: $light-grayish-cyan;
   height: 100vh;
@@ -60,7 +60,7 @@ body {
 .person-icon {
   position: absolute;
   left: 6.19%;
-  top: 44%;
+  top: 45%;
 
   @media screen and (min-width: $medium) {
     left: 5%;
@@ -99,6 +99,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+}
+.tip-value,
+.total-value {
+  font-size: 3.2rem;
+  letter-spacing: -0.67px;
+  font-weight: 700;
+  color: $green;
 }
 /* Attribution */
 .attribution {
