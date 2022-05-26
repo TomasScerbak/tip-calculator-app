@@ -119,6 +119,11 @@ input {
   text-transform: uppercase;
   margin-top: 3.2rem;
 }
+@media screen and (min-width: 991.98px) {
+  .btn--reset {
+    margin-top: 15rem;
+  }
+}
 
 body {
   font-family: ff-Mono;
@@ -134,6 +139,18 @@ body {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (min-width: 991.98px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+/* Form */
+@media screen and (min-width: 991.98px) {
+  .form {
+    display: flex;
+  }
+}
 
 /* Logo */
 .logo {
@@ -148,7 +165,7 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 25px 25px 0 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 991.98px) {
   .card {
     width: 92rem;
     height: auto;
@@ -178,10 +195,17 @@ body {
   left: 6.19%;
   top: 38%;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 991.98px) {
   .dollar,
 .person-icon {
     left: 2%;
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .card-body {
+    flex: 1;
+    margin-right: 4.8rem;
   }
 }
 
@@ -189,6 +213,7 @@ body {
   background-color: hsl(183deg, 100%, 15%);
   border-radius: 15px;
   padding: 2.4rem;
+  flex: 1;
 }
 
 .tip-amount,

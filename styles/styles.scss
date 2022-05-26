@@ -13,6 +13,16 @@ body {
 /* Container */
 .container {
   @include flexCenter(column);
+
+  @media screen and (min-width: $medium) {
+    height: 100vh;
+  }
+}
+/* Form */
+.form {
+  @media screen and (min-width: $medium) {
+    display: flex;
+  }
 }
 /* Logo */
 .logo {
@@ -26,7 +36,7 @@ body {
   background-color: $white;
   border-radius: 25px 25px 0 0;
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: $medium) {
     width: 92rem;
     height: auto;
     border-radius: 25px;
@@ -52,14 +62,21 @@ body {
   left: 6.19%;
   top: 38%;
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: $medium) {
     left: 2%;
+  }
+}
+.card-body {
+  @media screen and (min-width: $medium) {
+    flex: 1;
+    margin-right: 4.8rem;
   }
 }
 .card-footer {
   background-color: $very-dark-cyan;
   border-radius: 15px;
   padding: 2.4rem;
+  flex: 1;
 }
 .tip-amount,
 .total-amount {
