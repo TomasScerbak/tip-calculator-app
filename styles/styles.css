@@ -301,6 +301,12 @@ body {
   font-weight: 700;
   color: hsl(172deg, 67%, 46%);
 }
+@media screen and (min-width: 991.98px) {
+  .tip-value,
+.total-value {
+    font-size: 4.8rem;
+  }
+}
 
 .attribution {
   font-size: 1.3rem;

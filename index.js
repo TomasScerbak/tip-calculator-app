@@ -2,6 +2,7 @@
 // Getting DOM elements
 const bill = document.querySelector('#bill');
 
+
 const fivePercentBtn = document.querySelector('#five');
 const tenPercentBtn = document.querySelector('#ten');
 const fifteenPercentBtn = document.querySelector('#fifteen');
