@@ -84,3 +84,15 @@ customBtn.addEventListener('input', (e) => {
 
     tipPerPerson.innerHTML = tip;
 })
+
+
+// Helper function to reset all elements
+let reset = function() {
+    bill.value = 0;
+    customBtn.value = 'Custom';
+    peopleCountInput.value = 0;
+    tipPerPerson.innerHTML = '0.00';
+    totalPerPerson.innerHTML = '0.00';
+}
+
+resetBtn.addEventListener('click', reset);
