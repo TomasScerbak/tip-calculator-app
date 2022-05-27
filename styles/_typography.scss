@@ -27,9 +27,6 @@ input {
   direction: rtl;
 }
 
-input:focus {
-  border: 2px solid $green;
-}
 ::placeholder {
   opacity: 70%;
   font-size: 2rem;

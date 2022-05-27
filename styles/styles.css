@@ -39,10 +39,6 @@ input {
   direction: rtl;
 }
 
-input:focus {
-  border: 2px solid hsl(172deg, 67%, 46%);
-}
-
 ::placeholder {
   opacity: 70%;
   font-size: 2rem;
@@ -85,10 +81,6 @@ input {
   font-weight: 700;
   margin: 0 0 2rem 0;
   direction: rtl;
-}
-
-input:focus {
-  border: 2px solid hsl(172deg, 67%, 46%);
 }
 
 ::placeholder {
@@ -167,6 +159,10 @@ input:focus {
 }
 
 .custom-onclick {
+  border: 2px solid hsl(172deg, 67%, 46%);
+}
+
+.input-onfocus {
   border: 2px solid hsl(172deg, 67%, 46%);
 }
 

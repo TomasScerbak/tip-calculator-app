@@ -19,12 +19,36 @@ const totalPerPerson = document.querySelector('.total-value');
 const resetBtn = document.querySelector('.btn--reset');
 
 
+
 // Getting value from bill input
 bill.addEventListener('input', (e) => {
+
+    // Getting input value and converting to number
     value = Number(e.target.value);
-    console.log(value);
     return value;
+
 })
+
+// Getting value from number of people input
+peopleCountInput.addEventListener('input', (e) => {
+
+    //Converting input from string to number
+    numberOfPeople = Number(e.target.value);
+
+    if (numberOfPeople === 0) {
+        error.innerHTML = "Can't be zero";
+        error.classList.add('error');
+        peopleCountInput.classList.add('input-error');
+        peopleCountInput.classList.remove('input-onfocus');
+    } else {
+        error.innerHTML = '';
+        error.classList.remove('error');
+        peopleCountInput.classList.remove('input-error');
+        peopleCountInput.classList.add('input-onfocus');
+    }
+})
+
+
 
 fivePercentBtn.addEventListener('click', () => {
     let tip = ((value / 100) * 5).toFixed(2);
@@ -60,22 +84,4 @@ customBtn.addEventListener('input', (e) => {
     let tip = ((value / 100) * customValue).toFixed(2);
 
     tipPerPerson.innerHTML = tip;
-})
-
-// Getting value from number of people input
-peopleCountInput.addEventListener('input', (e) => {
-
-    //Converting input from string to number
-    numberOfPeople = Number(e.target.value);
-    console.log(numberOfPeople);
-
-    if (numberOfPeople === 0) {
-        error.innerHTML = "Can't be zero";
-        error.classList.add('error');
-        peopleCountInput.classList.add('input-error');
-    } else {
-        error.innerHTML = '';
-        error.classList.remove('error');
-        peopleCountInput.classList.remove('input-error');
-    }
 })
