@@ -53,7 +53,6 @@ peopleCountInput.addEventListener('input', (e) => {
 fivePercentBtn.addEventListener('click', () => {
     let tip = ((value / 100) * 5).toFixed(2);
     tipPerPerson.innerHTML = tip;
-    console.log(value);
 })
 
 tenPercentBtn.addEventListener('click', () => {
