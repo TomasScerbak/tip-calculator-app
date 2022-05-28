@@ -28,7 +28,6 @@ bill.addEventListener('input', (e) => {
     // Getting input value and converting to number
     value = Number(e.target.value);
     inputValue = value
-    console.log(value);
 
 })
 
@@ -94,7 +93,6 @@ fiftyPercentBtn.addEventListener('click', () => {
 
 customBtn.addEventListener('input', (e) => {
     let customValue = Number(e.target.value);
-    console.log(customValue);
     customBtn.classList.add('custom-onclick');
 
     let tip = ((value / 100) * customValue).toFixed(2);
