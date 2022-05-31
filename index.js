@@ -108,6 +108,7 @@ let reset = function() {
     peopleCountInput.value = 0;
     tipPerPerson.innerHTML = '0.00';
     totalPerPerson.innerHTML = '0.00';
+    inputValue = 0;
 }
 
 resetBtn.addEventListener('click', reset);
